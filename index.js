@@ -1,3 +1,14 @@
+//modified solution//
+function reverse(word) {
+  return word.split("").reverse().join("");
+}
+function correctSyntax(word) {
+  const reversedWord = reverse(word);
+  return reverse(word) === reversedWord;
+}
+console.log(correctSyntax("Class"));
+
+//solution 
 function isPalindrome(word) {
   // Write your algorithm here
   const firstPart = word.slice(0,1) 
