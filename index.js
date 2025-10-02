@@ -1,9 +1,24 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const firstPart = word.slice(0,1) 
+  const lastPart = word.slice(-1)
+  console.log(lastPart)
+  if (firstPart === lastPart ) {
+    return true
+  }
+   else {
+    return false
+  };
 }
+
 
 /* 
   Add your pseudocode here
+  //takes in a word => string
+  slice the string 
+
+  word.slice -2 equal to word.slice 1
+  return true
 */
 
 /*
