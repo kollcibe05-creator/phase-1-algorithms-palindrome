@@ -3,12 +3,8 @@ function isPalindrome(word) {
   const firstPart = word.slice(0,1) 
   const lastPart = word.slice(-1)
   console.log(lastPart)
-  if (firstPart === lastPart ) {
-    return true
-  }
-   else {
-    return false
-  };
+  firstPart === lastPart 
+  return firstPart === lastPart  
 }
 
 
